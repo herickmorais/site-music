@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="headerSec">
+            <img src="images/logo.png" id="logo" alt="Logo">
+            <div class="phone"><img src="images/phone.png" class="imgContact" alt="Phone"><p class="textContact">1-800-1234-567</br>1-800-8763-765</p></div>
+            <div class="address"><img src="images/pin.png" class="imgContact" alt="Address"><p class="textContact">2130 Fulton Street</br>San Diego, CA 94117-1080</p></div>
+            <input class="bookALesson" type="submit" value="book a lesson" name="bookALesson">
+            
+        </div>
+
+        <div class="menu">
+            <ul class="menuList">
+                <li>home</li>
+                <li>about</li>
+                <li>classes</li>
+                <li class="topicButton">blog<span class="arrowMenu">^</span>
+                    <ul class="topicList">
+                        <li>Grid Blog</li>
+                        <li>Sidebar Blog</li>
+                        <li>Blog Layouts</li>
+                        <li>Single Blog Post</li>
+                    </ul>                   
+                </li>
+                <li>teachers</li>
+                <li class="topicButton2">pages<span class="arrowMenu2">^</span>
+                    <div class="topicList2">
+                        <div class="pagImg"></div>
+                        <ul class="pagList1">
+                            <li>404 Page</li>
+                            <li>503 Page</li>
+                            <li>Coming Soon</li>
+                            <li>Under Construction</li>
+                            <li>Carrers</li>
+                            <li>Search Results</li>
+                            <li>Single Job</li>
+                            <li>Grid Gallery</li>
+                            <li>Masonry Gallery</li>
+                            <li>Modern Gallery</li>
+                        </ul>
+
+                        <ul class="pagList2">
+                            <li>Typography</li>
+                            <li>Buttons</li>
+                            <li>Forms</li>
+                            <li>Progress Bars</li>
+                            <li>Tabs</li>
+                            <li>Tables</li>
+                            <li>Testimonials</li>
+                            <li>Privacy Policy</li>
+                            <li>Large Features</li>
+                            <li>Pricing</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>contacts</li>
+            </ul>
+
+            <img class="srcIcon" src="images/magglass.png" alt="search">
+        </div>
+    </header>
+
+
+    <section class="section1">
+
+        <div id="images">
+            <img id="img2" class="img2" src="images/img2.jpg">
+            <img id="img3" class="img3" src="images/img3.jpg">
+            <img id="img4" class="img4" src="images/img4.jpg">
+        </div>
+        
+        
+        <div class="section1text">
+            <h1 id="h1">Music <span>for</span></br>everyone</h1>
+            <h1 id="h2">Music <span>with</span></br>everyone</h1>
+            <h1 id="h3">Music <span>from</span></br>everyone</h1>
+            <input id="idStartButton" class="startButton" type="button" value="start learning" name="startButton">
+            
+            <div id="slideMenu">
+                <div class="slideDiv">
+                    <span class="slideButton b1" onclick="slide1()">01</span>
+                    <span class="slideButton b2" onclick="slide2()">02</span>
+                    <span class="slideButton b3" onclick="slide3()">03</span>
+                </div>
+                <div id="slideCircle"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="section2">
+        <img src="images/img5.jpg" alt="Image">
+
+        <div class="section2text">
+            <h3>Welcome to Melody!</h3>
+            <p class="p1 textS2">Melody Music School offers comprehensive musicianship through active learning for children and adults. Our music educators are highly qualified and share a love of teaching.</p>
+            <p class="p2 textS2">Our curriculum offers group experiences, private lessons, ensemble participation, theater, and camps. We believe that learning music can be fun, and we believe in the effectiveness of learning in groups.</p>
+        
+            <input class="readButton" type="button" value="read more">
+        </div>
+    </section>
+
+
+
+    <section id="section3">
+        <h3>Music Classes</h3>
+        <div class="section3grid">
+            <div class="d1">
+                <div class="iconS3"><img src="images/music.png"></div>
+                <span>Piano</span>
+                <p>Want to learn to play piano? Our Piano Lessons are open to everyone.</p>
+            </div>
+
+            <div class="d2">
+                <div class="iconS3"><img src="images/music-sheet.png"></div>
+                <span>Guitar</span>
+                <p>Learn to play the world’s popular instrument with our guitar classes.</p>
+            </div>
+
+            <div class="d3">
+                <div class="iconS3"><img src="images/microphone.png"></div>
+                <span>Vocal</span>
+                <p>Melody offers a wide variety of vocal classes for all ages and skills.</p>
+            </div>
+        
+            <div class="d4">
+                <div class="iconS3"><img src="images/saxophone.png"></div>
+                <span>Saxophone</span>
+                <p>We offer extensive trumpet learning program at our music school.</p>
+            </div>
+
+            <div class="d5">
+                <div class="iconS3"><img src="images/speaker.png"></div>
+                <span>DJ</span>
+                <p>DJ music class provides in-depth knowledge and training for aspiring DJs.</p>
+            </div>
+
+            <div class="d6">
+                <div class="iconS3"><img src="images/headphones.png"></div>
+                <span>Hearing</span>
+                <p>Hearing curriculum at our School develops students’ aural skills.</p>
+            </div>
+        
+        </div>
+    </section>
+
+
+
+
+    <section id="section4">
+
+        <h3>Music Groups</h3>
+        <p>Our music school offers a variety of groups to learn music and sharpen your skills. If you prefer private lessons, we have what to offer you and your children</p>
+        
+        <div class="section4grid">
+            <div class="section4imgs">
+                <img class="imgS4" src="images/img6.jpg" alt="image">
+                <span>Kids</span>
+            </div>
+
+            <div class="section4imgs">
+                <img class="imgS4" src="images/img7.jpg" alt="image">
+                <span>Teens</span>
+            </div>
+
+            <div class="section4imgs">
+                <img class="imgS4" src="images/img8.jpg" alt="image">
+                <span>Adults</span>
+            </div>
+
+            <div class="section4imgs">
+                <img class="imgS4" src="images/img9.jpg" alt="image">
+                <span>Private lessons</span>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+
+
+
+    <section id="section5">
+        <h3>Choose<span> the Best</span></br> Time for Lessons</h3>
+        <p>Our students can select any time for their music lessons that fits their timetable, whether it’s a weekday evening or weekend morning.</p>
+        
+        <input class="section5button" type="button" value="learn more">
+    
+    </section>
+
+
+
+
+
+
+
+    <section id="section6">
+        <h3>Testimonials</h3>
+        <div class="section6grid">
+            <div class="section6container">
+                <div class="section6perfil perfil1">
+                    <img class="section6img" src="images/imgperfil1.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Albert Webb</span></br>
+                        <span class="section6label">Student, Piano Class</span>
+                    </div>
+                </div>
+                <p>I began as adult student that never had any musical training. Your teachers spent time to understand my objectives and even gave me one trial lesson. It became a great beginning of my piano class.
+
+                </p>
+            </div>
+
+            <div class="section6container">
+                <div class="section6perfil perfil2">
+                    <img class="section6img" src="images/imgperfil2.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Kelly McMillan</span></br>
+                        <span class="section6label">Student, Vocal Class</span>
+                    </div>
+                </div>
+                <p>I’ve learned so much with you. You don’t simply observe and correct mistakes. The suggestions you make always have broader implications; you explain the detailed performance of a certain piece.</p>
+            </div>
+
+            <div class="section6container">
+                <div class="section6perfil perfil3">
+                    <img class="section6img" src="images/imgperfil3.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Harold Barnett</span></br>
+                        <span class="section6label">Student, Hearing Class</span>
+                    </div>
+                </div>
+                <p>I am not a seasoned musician but I have some experience in music. Your hearing classes have given me more confidence in identifying notes and chords. I’m very glad to recommend your lessons to everyone.</p>
+            </div>
+
+
+
+
+
+
+            <div class="section6container">
+                <div class="section6perfil perfil4">
+                    <img class="section6img" src="images/imgperfil1.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Albert Webb</span></br>
+                        <span class="section6label">Student, Piano Class</span>
+                    </div>
+                </div>
+                <p>I began as adult student that never had any musical training. Your teachers spent time to understand my objectives and even gave me one trial lesson. It became a great beginning of my piano class.
+
+</p>
+            </div>
+
+            <div class="section6container">
+                <div class="section6perfil perfil5">
+                    <img class="section6img" src="images/imgperfil2.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Kelly McMillan</span></br>
+                        <span class="section6label">Student, Vocal Class</span>
+                    </div>
+                </div>
+                <p>I’ve learned so much with you. You don’t simply observe and correct mistakes. The suggestions you make always have broader implications; you explain the detailed performance of a certain piece.</p>
+            </div>
+
+            <div class="section6container">
+                <div class="section6perfil perfil6">
+                    <img class="section6img" src="images/imgperfil3.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Harold Barnett</span></br>
+                        <span class="section6label">Student, Hearing Class</span>
+                    </div>
+                </div>
+                <p>I am not a seasoned musician but I have some experience in music. Your hearing classes have given me more confidence in identifying notes and chords. I’m very glad to recommend your lessons to everyone.</p>
+            </div>
+
+
+
+
+
+
+            <div class="section6container">
+                <div class="section6perfil perfil7">
+                    <img class="section6img" src="images/imgperfil1.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Albert Webb</span></br>
+                        <span class="section6label">Student, Piano Class</span>
+                    </div>
+                </div>
+                <p>I began as adult student that never had any musical training. Your teachers spent time to understand my objectives and even gave me one trial lesson. It became a great beginning of my piano class.
+
+                </p>
+            </div>
+
+            <div class="section6container">
+                <div class="section6perfil perfil8">
+                    <img class="section6img" src="images/imgperfil2.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Kelly McMillan</span></br>
+                        <span class="section6label">Student, Vocal Class</span>
+                    </div>
+                </div>
+                <p>I’ve learned so much with you. You don’t simply observe and correct mistakes. The suggestions you make always have broader implications; you explain the detailed performance of a certain piece.</p>
+            </div>
+
+            <div class="section6container">
+                <div class="section6perfil perfil9">
+                    <img class="section6img" src="images/imgperfil3.jpg" alt="imagem">
+                    <div class="section6divname">
+                        <span class="section6name">Harold Barnett</span></br>
+                        <span class="section6label">Student, Hearing Class</span>
+                    </div>
+                </div>
+                <p>I am not a seasoned musician but I have some experience in music. Your hearing classes have given me more confidence in identifying notes and chords. I’m very glad to recommend your lessons to everyone.</p>
+            </div>
+
+        </div>
+
+        
+        
+        
+    </section>
+
+
+
+    <footer>
+        <div class="footer1">
+            <span>We create possibilities for the connected world.</span>
+        </div>
+
+        <div class="footer2">
+            <span class="footerTitle">Explore</span>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Classes</li>
+                <li>Teachers</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+
+        <div class="footer3">
+            <span class="footerTitle">Visit</span>
+            <p>2130 Fulton Street San Diego, CA 94117-1080</p>
+        </div>
+
+        <div class="footer4">
+            <span class="footerTitle">Follow</span>
+            <ul>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Linkedin</li>
+            </ul>
+        </div>
+        
+
+        <div class="footer5">
+            <span class="footerTitle">Legal</span>
+            <ul>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        
+    </footer>
+
+
+
+
+
+    
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
